@@ -76,7 +76,7 @@ export default function ContactPage() {
               <CardHeader>
                 <CardTitle className="text-2xl text-gray-900">Send us a message</CardTitle>
                 <CardDescription className="text-gray-600">
-                  We'll get back to you within 24 hours with a personalized consultation plan
+                  We&apos;ll get back to you within 24 hours with a personalized consultation plan
                 </CardDescription>
               </CardHeader>
               <CardContent className="space-y-4">

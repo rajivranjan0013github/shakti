@@ -71,7 +71,7 @@ export default function AboutPage() {
               </div>
               <h3 className="text-lg font-semibold text-gray-900 mb-2">Client Focus</h3>
               <p className="text-gray-600 text-sm">
-                Our clients' success is our success. We build lasting relationships based on trust and results.
+                Our clients&apos; success is our success. We build lasting relationships based on trust and results.
               </p>
             </div>
             <div className="text-center">
