@@ -204,7 +204,7 @@ export default function TeamPage() {
         <div className="max-w-4xl mx-auto text-center">
           <h2 className="text-3xl font-bold text-gray-900 mb-4">Join Our Growing Team</h2>
           <p className="text-lg text-gray-600 mb-8">
-            We're always looking for talented professionals to join our team. If you're passionate about finance and helping businesses succeed, we'd love to hear from you.
+            We&apos;re always looking for talented professionals to join our team. If you&apos;re passionate about finance and helping businesses succeed, we&apos;d love to hear from you.
           </p>
           <Button size="lg" className="bg-blue-600 hover:bg-blue-700 text-white" asChild>
             <Link href="mailto:careers@succoring.com">

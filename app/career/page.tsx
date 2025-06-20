@@ -116,7 +116,7 @@ export default function CareerPage() {
            succoringconsultancy@gmail.com
           </p>
           <p className="text-sm text-gray-500 mt-4">
-            Please include "Application for [Position Name]" in the subject line.
+            Please include &quot;Application for [Position Name]&quot; in the subject line.
             Only shortlisted candidates will be contacted.
           </p>
         </div>

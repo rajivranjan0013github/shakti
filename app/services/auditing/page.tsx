@@ -1,4 +1,4 @@
-import { CheckCircle, ArrowRight, Building2, Shield, LineChart } from "lucide-react"
+import { CheckCircle, ArrowRight, Shield } from "lucide-react"
 import { ServiceLayout } from "@/components/ui/service-layout"
 import { Card, CardContent } from "@/components/ui/card"
 import Link from "next/link"

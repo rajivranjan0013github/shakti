@@ -1,4 +1,4 @@
-import { ArrowRight, Clock, Mail, MapPin, Phone } from "lucide-react"
+import { ArrowRight, Mail, MapPin, Phone } from "lucide-react"
 import { Button } from "@/components/ui/button"
 import { Card, CardContent, CardDescription, CardHeader, CardTitle } from "@/components/ui/card"
 import { Input } from "@/components/ui/input"
@@ -27,7 +27,7 @@ export default function ContactPage() {
               <div>
                 <h2 className="text-3xl font-bold text-gray-900 mb-4">Contact Information</h2>
                 <p className="text-lg text-gray-600">
-                  We're here to help you with all your financial and accounting needs. Reach out to us through any of
+                  We&apos;re here to help you with all your financial and accounting needs. Reach out to us through any of
                   the following channels.
                 </p>
               </div>

@@ -1,6 +1,6 @@
 import Image from "next/image"
 import Link from "next/link"
-import { ArrowRight, Award, CheckCircle, FileText, Shield, TrendingUp } from "lucide-react"
+import { ArrowRight, CheckCircle, FileText, Shield, TrendingUp } from "lucide-react"
 import { Button } from "@/components/ui/button"
 import { Card, CardContent, CardHeader, CardTitle, CardDescription } from "@/components/ui/card"
 
