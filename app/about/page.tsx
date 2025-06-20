@@ -149,7 +149,7 @@ export default function AboutPage() {
               <div>
                 <h3 className="font-semibold text-gray-900">Registered Address</h3>
                 <p className="text-gray-600">
-                  HNO 107,A.N.PATH, NORTH, S.K. PURI, PATNA,<br />
+                  HNO-17,A.N.PATH, NORTH, S.K. PURI, PATNA,<br />
                   Patliputra, Patna, Phulwari, Bihar, India, 800013
                 </p>
               </div>

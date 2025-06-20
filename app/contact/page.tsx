@@ -57,7 +57,7 @@ export default function ContactPage() {
                   </div>
                   <div>
                     <p className="font-medium text-gray-900">Address</p>
-                    <p className="text-gray-600">HNO 107, A.N.PATH, NORTH S.K. PURI, PATNA, BIHAR - 800013</p>
+                    <p className="text-gray-600">HNO-17, A.N.PATH, NORTH S.K. PURI, PATNA, BIHAR - 800013</p>
                   </div>
                 </div>
                 {/* <div className="flex items-center space-x-4">

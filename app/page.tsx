@@ -42,7 +42,7 @@ export default function HomePage() {
                 alt="Finance concept with laptop, phone showing TAX, and calculator"
                 className="rounded-2xl shadow-xl shadow-white"
                 height="600"
-                src="/s-1.jpg"
+                src="/s-1.png"
                 width="600"
               />
             </div>

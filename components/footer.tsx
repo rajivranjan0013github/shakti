@@ -70,7 +70,7 @@ export function Footer() {
             <ul className="space-y-2 text-sm text-gray-400">
               <li>+91 98765 43210</li>
               <li>succoringconsultancy@gmail.com</li>
-              <li>HNO 107, A.N.PATH, NORTH S.K. PURI, PATNA, BIHAR - 800013</li>
+              <li>HNO-17, A.N.PATH, NORTH S.K. PURI, PATNA, BIHAR - 800013</li>
             </ul>
           </div>
         </div>
