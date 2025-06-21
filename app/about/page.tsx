@@ -29,7 +29,7 @@ export default function AboutPage() {
       {/* Story Section */}
       <section className="px-6 lg:px-8 py-16">
         <div className="max-w-7xl mx-auto">
-          <div className="grid lg:grid-cols-2 gap-16 items-center">
+          <div className="grid lg:grid-cols-2 gap-8 lg:gap-16 items-center">
             <div className="space-y-6">
               <h2 className="text-3xl font-bold text-gray-900">Our Story</h2>
               <p className="text-gray-600 leading-relaxed">
@@ -43,13 +43,14 @@ export default function AboutPage() {
                 and client satisfaction sets us apart in the industry.
               </p>
             </div>
-            <div>
+            <div className="relative w-full h-[300px] lg:h-[500px]">
               <Image
                 alt="Our office and team"
-                className="rounded-2xl shadow-lg"
-                height="500"
-                src="/s-1.jpg"
-                width="600"
+                className="rounded-2xl shadow-lg object-cover"
+                src="/s-1.png"
+                fill
+                sizes="(max-width: 768px) 100vw, 50vw"
+                priority
               />
             </div>
           </div>
