@@ -11,6 +11,12 @@ export const metadata: Metadata = {
   title: "Succoring Consultancy - Expert Chartered Accountant Services",
   description:
     "Professional accounting, tax planning, and business consultation services. Trusted by 500+ clients across various industries.",
+  viewport: {
+    width: 'device-width',
+    initialScale: 1,
+    maximumScale: 1,
+    userScalable: false,
+  },
 }
 
 export default function RootLayout({
@@ -19,8 +25,8 @@ export default function RootLayout({
   children: React.ReactNode
 }) {
   return (
-    <html lang="en">
-      <body className={inter.className}>
+    <html lang="en" className="scroll-smooth">
+      <body className={`${inter.className} antialiased`}>
         <div className="flex flex-col min-h-screen bg-white">
           <Header />
           <main className="flex-1">{children}</main>

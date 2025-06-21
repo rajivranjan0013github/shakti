@@ -67,21 +67,21 @@ const services = [
 export default function ServicesPage() {
   return (
     <ServiceLayout>
-      <div className="flex min-h-screen flex-col items-center justify-start py-16">
-        <div className="mb-16 max-w-4xl text-center">
-          <h1 className="relative mb-6 text-5xl font-bold">
+      <div className="flex min-h-screen flex-col items-center justify-start py-12 sm:py-16">
+        <div className="mb-12 sm:mb-16 max-w-4xl text-center px-4">
+          <h1 className="relative mb-6 text-3xl sm:text-4xl md:text-5xl font-bold">
             <span className="absolute -left-8 -top-8 h-16 w-16 rounded-full bg-blue-500/10 blur-xl" />
             <span className="absolute -right-8 -top-8 h-16 w-16 rounded-full bg-purple-500/10 blur-xl" />
             <span className="relative bg-gradient-to-r from-blue-600 via-purple-600 to-pink-600 bg-clip-text text-transparent">
               Our Services
             </span>
           </h1>
-          <p className="mx-auto text-lg text-gray-600">
+          <p className="mx-auto text-base sm:text-lg text-gray-600">
             Complete business solutions under one roof. Our experienced professionals help you manage your business&apos; Financial, Accounts, Taxes, and Legal Issues with expertise and precision.
           </p>
         </div>
 
-        <div className="grid w-full max-w-7xl gap-8 px-4 md:grid-cols-2 lg:grid-cols-3">
+        <div className="grid w-full max-w-7xl gap-6 sm:gap-8 px-4 md:grid-cols-2 lg:grid-cols-3">
           {services.map((service, index) => (
             <Link key={index} href={service.href} className="transition-transform duration-300 hover:scale-[1.02]">
               <ServiceCard
@@ -93,14 +93,14 @@ export default function ServicesPage() {
           ))}
         </div>
 
-        <div className="mt-24 flex w-full max-w-7xl flex-col items-center rounded-2xl bg-gradient-to-r from-blue-500/5 via-purple-500/5 to-pink-500/5 px-6 py-12 text-center backdrop-blur-sm">
-          <h2 className="mb-4 text-3xl font-bold text-gray-800">Ready to Get Started?</h2>
-          <p className="mb-8 max-w-2xl text-gray-600">
+        <div className="mt-16 sm:mt-24 flex w-full max-w-7xl flex-col items-center rounded-2xl bg-gradient-to-r from-blue-500/5 via-purple-500/5 to-pink-500/5 px-4 sm:px-6 py-8 sm:py-12 text-center backdrop-blur-sm">
+          <h2 className="mb-4 text-2xl sm:text-3xl font-bold text-gray-800">Ready to Get Started?</h2>
+          <p className="mb-6 sm:mb-8 max-w-2xl text-base sm:text-lg text-gray-600">
             Contact us today to learn more about how our professional services can help your business grow and succeed.
           </p>
           <Link 
             href="/contact"
-            className="rounded-full bg-gradient-to-r from-blue-600 to-purple-600 px-8 py-3 text-white shadow-lg transition-all hover:scale-105 hover:shadow-xl"
+            className="rounded-full bg-gradient-to-r from-blue-600 to-purple-600 px-6 sm:px-8 py-2.5 sm:py-3 text-sm sm:text-base text-white shadow-lg transition-all hover:scale-105 hover:shadow-xl"
           >
             Contact Us
           </Link>

@@ -8,9 +8,17 @@ export default function TeamPage() {
   return (
     <>
       {/* Hero Section */}
-      <section className="px-6 lg:px-8 py-24">
-        <div className="max-w-4xl mx-auto text-center">
-          <h1 className="text-5xl font-bold text-gray-900 mb-6">Our Expert Team</h1>
+      <section className="px-6 lg:px-8 py-24 bg-gradient-to-br from-gray-50 to-white relative">
+        <div className="absolute inset-0">
+          <div className="absolute inset-0 bg-[linear-gradient(30deg,rgba(59,130,246,0.02)_25%,transparent_25%)] bg-[length:24px_24px]"></div>
+          <div className="absolute inset-0 bg-[linear-gradient(30deg,rgba(59,130,246,0.02)_25%,transparent_25%)] bg-[length:24px_24px] translate-x-[12px]"></div>
+        </div>
+        <div className="max-w-4xl mx-auto text-center relative">
+          <div className="inline-block mb-8">
+            <div className="h-1.5 w-24 bg-blue-600 rounded-full mb-1.5"></div>
+            <div className="h-1.5 w-12 bg-blue-600 rounded-full mx-auto"></div>
+          </div>
+          <h1 className="text-3xl sm:text-4xl md:text-5xl lg:text-6xl font-bold text-gray-900 mb-6">Our Expert Team</h1>
           <p className="text-xl text-gray-600 leading-relaxed">
             Meet our qualified chartered accountants and financial experts who bring decades of combined experience to
             serve your business needs with dedication and expertise.

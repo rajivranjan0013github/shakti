@@ -5,9 +5,17 @@ export default function AboutPage() {
   return (
     <>
       {/* Hero Section */}
-      <section className="px-6 lg:px-8 py-24">
-        <div className="max-w-4xl mx-auto text-center">
-          <h1 className="text-5xl font-bold text-gray-900 mb-6">About Succoring Consultancy</h1>
+      <section className="px-6 lg:px-8 py-24 bg-gradient-to-br from-gray-50 to-white relative">
+        <div className="absolute inset-0">
+          <div className="absolute inset-0 bg-[linear-gradient(30deg,rgba(59,130,246,0.02)_25%,transparent_25%)] bg-[length:24px_24px]"></div>
+          <div className="absolute inset-0 bg-[linear-gradient(30deg,rgba(59,130,246,0.02)_25%,transparent_25%)] bg-[length:24px_24px] translate-x-[12px]"></div>
+        </div>
+        <div className="max-w-4xl mx-auto text-center relative">
+          <div className="inline-block mb-8">
+            <div className="h-1.5 w-24 bg-blue-600 rounded-full mb-1.5"></div>
+            <div className="h-1.5 w-12 bg-blue-600 rounded-full mx-auto"></div>
+          </div>
+          <h1 className="text-3xl sm:text-4xl md:text-5xl lg:text-6xl font-bold text-gray-900 mb-6">About Succoring Consultancy</h1>
           <p className="text-xl text-gray-600 leading-relaxed">
             As a newly established consultancy firm, we are committed to providing exceptional services
             to businesses of all sizes. Our dedication to precision and client success positions us
@@ -134,16 +142,6 @@ export default function AboutPage() {
                 <h3 className="font-semibold text-gray-900">CIN</h3>
                 <p className="text-gray-600">U69200BR2025OPC074670</p>
               </div>
-              <div>
-                <h3 className="font-semibold text-gray-900">Registration Details</h3>
-                <p className="text-gray-600">Registration Number: 074670</p>
-                <p className="text-gray-600">Date of Incorporation: 27/03/2025</p>
-                <p className="text-gray-600">ROC: Patna</p>
-              </div>
-              <div>
-                <h3 className="font-semibold text-gray-900">Contact Information</h3>
-                <p className="text-gray-600">Email: succoringconsultancy@gmail.com</p>
-              </div>
             </div>
             <div className="space-y-4">
               <div>
@@ -154,15 +152,8 @@ export default function AboutPage() {
                 </p>
               </div>
               <div>
-                <h3 className="font-semibold text-gray-900">Company Category</h3>
-                <p className="text-gray-600">Company limited by shares</p>
-                <p className="text-gray-600">Non-government company</p>
-                <p className="text-gray-600">One Person Company</p>
-              </div>
-              <div>
-                <h3 className="font-semibold text-gray-900">Capital Information</h3>
-                <p className="text-gray-600">Authorised Capital: ₹5,00,000</p>
-                <p className="text-gray-600">Paid up Capital: ₹1,00,000</p>
+                <h3 className="font-semibold text-gray-900">Contact Information</h3>
+                <p className="text-gray-600">Email: succoringconsultancy@gmail.com</p>
               </div>
             </div>
           </div>
